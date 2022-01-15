@@ -1,3 +1,4 @@
+
 .card-fiestas-tematicas {
   background: url(/images/fiestastematicas.jpg) center center no-repeat;
 }
@@ -25,4 +26,94 @@
   font-weight: bold;
   padding: 15px;
   margin: 0;
+=======
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: #f8f8f8;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1000px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation__menu-burger {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+
+  height: 50px;
+}
+
+.fa-bars {
+  color: #ff5959;
+}
+
+.navigation__user {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 50px;
+}
+
+.navigation__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 50px;
+  background-color: #bbb8b6;
+}
+
+.navigation__cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height: 50px;
+}
+
+.navigation__counter {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ff5959;
+  height: 50px;
+}
+
+.navigation__counter p {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation__icon {
+  width: 50px;
+  height: 50px;
+}
+
+.min-width {
+  min-width: 50px;
+}
+
+.min-width-container {
+  min-width: 250px;
+  min-height: 50px;
+
 }
