@@ -138,8 +138,8 @@ html a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-width: 500px;
-  min-height: 500px;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .services-information--icon-size {
@@ -164,7 +164,6 @@ html a {
 
   font-weight: bold;
 }
-
 
 .footer {
   background-color: #f8f8f8;
@@ -192,7 +191,7 @@ html a {
   justify-content: center;
   align-items: center;
 }
-=======
+
 .heading__image {
   width: 200px;
   height: 200px;
@@ -217,4 +216,3 @@ html a {
   margin-bottom: 90px;
   text-align: center;
 }
-
