@@ -39,7 +39,6 @@ html a {
   color: #ffffff;
   padding: 15px 25px;
   font-weight: bold;
-  margin: 10px;
   border: none;
 }
 .main-area__button:hover {
@@ -227,4 +226,31 @@ html a {
   margin-top: 56px;
   margin-bottom: 90px;
   text-align: center;
+}
+
+/* FORM */
+
+.form {
+  padding: 50px 60px;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  justify-content: center;
+  flex-direction: column;
+}
+.form__link {
+  text-decoration: underline;
+}
+.form__button {
+  width: 100%;
+}
+.form-tittle {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.accept {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 0;
 }

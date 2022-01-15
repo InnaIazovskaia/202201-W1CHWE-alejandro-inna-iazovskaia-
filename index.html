@@ -156,15 +156,18 @@
           </div>
         </section>
 
-        <form class="form">
+        <form class="form row">
           <label class="form-tittle" for="newslater"
             >RECIBE LAS NOVEDADES EN TU E-MAIL</label
           >
           <input class="form__input-box" type="email" id="newslater" />
-          <label for="acepto"
-            ><input class="form__check-box" type="checkbox" id="acepto" />
-            <p>Acepto la <a href="">política de privacidad</a></p>
-          </label>
+          <div class="accept">
+            <input class="form__check-box" type="checkbox" id="acepto" />
+            <label for="acepto">
+              Acepto la
+              <a class="form__link" href="#">política de privacidad</a>
+            </label>
+          </div>
           <button class="form__button" type="submit">SUSCRÍBETE></button>
         </form>
 
