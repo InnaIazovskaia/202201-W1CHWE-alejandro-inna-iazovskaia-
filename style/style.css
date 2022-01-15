@@ -1,0 +1,14 @@
+.card-fiestas-tematicas {
+  background-image: url(/images/fiestastematicas.jpg);
+}
+.card-fiestas-personajes {
+  background-image: url(/images/fiestaspersonajes.jpg);
+}
+.card-accesorios {
+  background-image: url(/images/pompones.jpg);
+}
+
+.cards__shape {
+  width: 200px;
+  height: 100px;
+}
