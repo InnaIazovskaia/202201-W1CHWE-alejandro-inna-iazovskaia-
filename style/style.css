@@ -25,13 +25,24 @@ html a {
 .cards__heading {
   width: 50%;
   height: 50%;
-  background-color: white;
+  background-color: #ffffff;
   opacity: 0.85;
 }
 .cards__heading {
   font-weight: bold;
   padding: 15px;
   margin: 0;
+}
+.main-area__button {
+  background: #ff5959;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.main-area__button:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .header {
@@ -208,8 +219,8 @@ html a {
   font-weight: bold;
   letter-spacing: 10px;
   padding: 28px 0;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
   width: 300px;
   margin-top: 56px;
   margin-bottom: 90px;
