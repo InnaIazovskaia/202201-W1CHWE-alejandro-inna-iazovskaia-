@@ -1,14 +1,28 @@
 .card-fiestas-tematicas {
-  background-image: url(/images/fiestastematicas.jpg);
+  background: url(/images/fiestastematicas.jpg) center center no-repeat;
 }
 .card-fiestas-personajes {
-  background-image: url(/images/fiestaspersonajes.jpg);
+  background: url(/images/fiestaspersonajes.jpg) center center no-repeat;
 }
 .card-accesorios {
-  background-image: url(/images/pompones.jpg);
+  background: url(/images/pompones.jpg) no-repeat;
 }
 
 .cards__shape {
-  width: 200px;
-  height: 100px;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  background-size: cover;
+  align-items: flex-end;
+}
+.cards__heading {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  opacity: 0.85;
+}
+.cards__heading {
+  font-weight: bold;
+  padding: 15px;
+  margin: 0;
 }
