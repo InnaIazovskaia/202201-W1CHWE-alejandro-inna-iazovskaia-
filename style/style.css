@@ -33,12 +33,14 @@ html a {
   padding: 15px;
   margin: 0;
 }
-.main-area__button {
+.main-area__button,
+.form__button {
   background: #ff5959;
   color: #ffffff;
   padding: 15px 25px;
   font-weight: bold;
   margin: 10px;
+  border: none;
 }
 .main-area__button:hover {
   text-decoration: none;
