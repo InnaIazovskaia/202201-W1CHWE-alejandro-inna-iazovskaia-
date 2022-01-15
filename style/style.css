@@ -87,3 +87,15 @@
   min-width: 250px;
   min-height: 50px;
 }
+
+/* FOOTER */
+
+.footer__services-information {
+  background-color: #7d7d7d;
+}
+
+.services-information__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
