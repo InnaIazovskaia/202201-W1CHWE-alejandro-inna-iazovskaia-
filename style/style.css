@@ -171,6 +171,7 @@ html a {
 /* FOOTER */
 
 .footer__services-information {
+  display: flex;
   height: 500px;
   flex-direction: row;
   background-color: #7d7d7d;
