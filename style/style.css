@@ -498,18 +498,6 @@ a:hover {
 .main-area-container--desktop {
   display: none;
 }
-@media (min-width: 600px) {
-  .background--grey {
-    display: flex;
-  }
-  .header {
-    display: none;
-  }
-
-  .main-area-container--desktop {
-    display: flex;
-  }
-}
 
 .main-area__cards {
   display: flex;
@@ -526,20 +514,81 @@ a:hover {
   width: 500px;
   height: 200px;
 }
-
-.cards__highligth {
+.cards--fiestas-tematicas {
   display: flex;
-  flex-direction: row;
+  align-items: flex-end;
+  width: 500px;
+  height: 200px;
+}
+.cards--accesorios {
+  display: flex;
+  align-items: flex-end;
+  width: 500px;
+  height: 200px;
+}
+
+.cards__highlight,
+.cards__highlight--fiestas-tematicas {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   width: 200px;
   height: 100px;
   background-color: #fff;
   opacity: 0.8;
-  padding: 10px;
 }
 
-.cards__highligth h2 {
+.cards__highlight h2,
+.cards__highlight--fiestas-tematicas h2 {
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.highlight__description {
+  display: none;
+}
+
+.first-two-cards {
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  gap: 20px;
+}
+
+.card-tittle__size {
+  font-weight: 900;
+  width: 120px;
+}
+
+@media (min-width: 600px) {
+  .background--grey {
+    display: flex;
+  }
+  .header {
+    display: none;
+  }
+  .main-area-container--desktop {
+    display: flex;
+  }
+
+  .main-area__cards {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 820px;
+  }
+  .cards--accesorios {
+    width: 300px;
+    height: 420px;
+  }
+  .cards--fiestas-tematicas {
+    justify-content: flex-end;
+  }
+  .highlight__description {
+    font-size: 10px;
+    display: flex;
+  }
+  .card-tittle__size {
+    width: 170px;
+  }
 }
