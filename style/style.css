@@ -225,7 +225,6 @@ html a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: none;
 }
 
 .follow-us__tittle {
@@ -365,4 +364,149 @@ html a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* DESKTOP */
+
+.header__logos {
+  height: 50px;
+}
+
+.header__navigation {
+  height: 50px;
+}
+
+.navigation__social-media {
+  height: 50px;
+}
+
+.navigation__login {
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 50px;
+}
+
+.container {
+  width: 100%;
+}
+
+.header__blank--desktop {
+  height: 50px;
+}
+
+.header__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.logos__container {
+  display: flex;
+  /* flex-direction: row; */
+  width: 330px;
+  height: 100px;
+  align-items: initial;
+}
+.logo-background {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-action:hover {
+  display: flex;
+  align-items: flex-end;
+  width: 80px;
+  height: 160px;
+}
+
+.logo-action__red:hover {
+  background-color: #ff5959;
+}
+.logo-action__blue:hover {
+  background-color: #6199af;
+}
+.logo-action__yellow:hover {
+  background-color: #f6b436;
+}
+
+.logo-background--red {
+  background-color: #ff5959;
+}
+.logo-background--blue {
+  background-color: #6199af;
+}
+
+.logo-background--yellow {
+  background-color: #f6b436;
+}
+.logo-background--white {
+  background-color: #fff;
+}
+
+.navigation__social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+a:hover {
+  color: #ff5959;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation__counter--desktop {
+  width: 50px;
+  height: 50px;
+  background-color: #ff5959;
+}
+
+.fa-user {
+  font-size: 20px;
+}
+
+.background {
+  border: 1px solid black;
+  height: 100px;
+}
+
+.header-desktop {
+  min-width: 700px;
+  justify-content: space-between;
+}
+
+.background--grey {
+  display: none;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 50px;
+}
+
+@media (min-width: 600px) {
+  .background--grey {
+    display: flex;
+  }
+  .header {
+    display: none;
+  }
 }
