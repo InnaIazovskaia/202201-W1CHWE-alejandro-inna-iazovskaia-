@@ -142,15 +142,51 @@
         </div>
         <div class="sub-menu-desktop__menu">
           <div class="menu-upper">
-            <div class="first-button"></div>
-            <div class="second-button"></div>
+            <div class="first-button">
+              <i class="far fa-star"></i><a href="#">NOVEDADES</a>
+            </div>
+            <div class="second-button">
+              <i class="far fa-circle"></i><a href="#">OFERTAS</a>
+            </div>
             <div class="searchbar">
-              <imput class="searchbar__imput"></imput>
-              <div class="searchbar__icon"></div>
+              <input
+                class="searchbar__imput"
+                type="text"
+                id="name"
+                name="name"
+                required
+                minlength="4"
+                maxlength="8"
+                size="10"
+                placeholder="¿QUÉ BUSCAS?"
+              />
+              <div class="searchbar__icon"><i class="fas fa-search"></i></div>
             </div>
           </div>
 
-          <div class="menu-down"></div>
+          <div class="menu-down">
+            <div class="menu-down__button">
+              <div><img src="images/utensiliosML.png" alt="utensilios" /></div>
+              <div>UTENSILIOS</div>
+            </div>
+            <div class="menu-down__button">
+              <div><img src="images/magdalena.png" alt="magdalena" /></div>
+              <div>INGREDIENTES</div>
+            </div>
+            <div class="menu-down__button">
+              <div><img src="images/tarta-cumpleanos.png" alt="tarta" /></div>
+              <div>FIESTAS</div>
+            </div>
+            <div class="menu-down__button">
+              <div><img src="images/delantal.png" alt="salero" /></div>
+              <div>MARCAS</div>
+            </div>
+            <div class="menu-down__spacer"></div>
+            <div class="menu-down__button menu-down__button--red">
+              <div><img src="images/chat.png" alt="chat" /></div>
+              <div>BLOG</div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -239,73 +275,77 @@
           </div>
         </section>
         <div class="footer-blank col-12"></div>
+        <div class="footer__down-area">
+          <section class="follow-us row">
+            <div class="follow-us__tittle col-12">
+              <h4>SÍGUENOS</h4>
+            </div>
+            <div class="icon-container">
+              <div class="follow-us__icon-cointainer-wrap">
+                <a class="follow-us__icon-cointainer" href=""
+                  ><i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+              <div class="follow-us__icon-cointainer-wrap">
+                <a class="follow-us__icon-cointainer" href=""
+                  ><i class="fab fa-twitter"></i>
+                </a>
+              </div>
+              <div class="follow-us__icon-cointainer-wrap">
+                <a class="follow-us__icon-cointainer" href=""
+                  ><i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div class="follow-us__icon-cointainer-wrap">
+                <a class="follow-us__icon-cointainer" href="">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </div>
+              <div class="follow-us__icon-cointainer-wrap">
+                <a class="follow-us__icon-cointainer" href=""
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </section>
 
-        <section class="follow-us row">
-          <div class="follow-us__tittle col-12">
-            <h4>SÍGUENOS</h4>
-          </div>
-          <div class="icon-container">
-            <div class="follow-us__icon-cointainer-wrap">
-              <a class="follow-us__icon-cointainer" href=""
-                ><i class="fab fa-facebook-f"></i>
-              </a>
-            </div>
-            <div class="follow-us__icon-cointainer-wrap">
-              <a class="follow-us__icon-cointainer" href=""
-                ><i class="fab fa-twitter"></i>
-              </a>
-            </div>
-            <div class="follow-us__icon-cointainer-wrap">
-              <a class="follow-us__icon-cointainer" href=""
-                ><i class="fab fa-instagram"></i>
-              </a>
-            </div>
-            <div class="follow-us__icon-cointainer-wrap">
-              <a class="follow-us__icon-cointainer" href="">
-                <i class="fab fa-pinterest-p"></i>
-              </a>
-            </div>
-            <div class="follow-us__icon-cointainer-wrap">
-              <a class="follow-us__icon-cointainer" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-            </div>
-          </div>
-        </section>
-
-        <div class="form">
-          <form class="form__container">
-            <label class="form-tittle" for="newslater">
-              RECIBE LAS NOVEDADES EN TU E-MAIL
-            </label>
-            <input class="form__input-box" type="email" id="newslater" />
-            <div class="accept">
-              <input class="form__check-box" type="checkbox" id="acepto" />
-              <label for="acepto">
-                Acepto la
-                <a class="form__link" href="#">política de privacidad</a>
+          <div class="form">
+            <form class="form__container">
+              <label class="form-tittle" for="newslater">
+                RECIBE LAS NOVEDADES EN TU E-MAIL
               </label>
+              <input class="form__input-box" type="email" id="newslater" />
+              <div class="accept">
+                <input class="form__check-box" type="checkbox" id="acepto" />
+                <label for="acepto">
+                  Acepto la
+                  <a class="form__link" href="#">política de privacidad</a>
+                </label>
+              </div>
+              <button class="form__button" type="submit">SUSCRÍBETE></button>
+            </form>
+          </div>
+          <div class="nav__aligner">
+            <div class="footer__nav row">
+              <ul class="nav__list">
+                <li class="nav__list-element">
+                  <div class="list__icon"><i class="far fa-envelope"></i></div>
+                  <a class="footer__nav-link" href="#">CONTACTO</a>
+                </li>
+                <li class="nav__list-element">
+                  <div class="list__icon"><i class="fas fa-info"></i></div>
+                  <a class="footer__nav-link" href="#">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav__list-element">
+                  <div class="list__icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </div>
+                  <a class="footer__nav-link" href="#">CONDICIONES DE VENTA</a>
+                </li>
+              </ul>
             </div>
-            <button class="form__button" type="submit">SUSCRÍBETE></button>
-          </form>
+          </div>
         </div>
-
-        <nav class="footer__nav row">
-          <ul class="nav__list">
-            <li class="nav__list-element">
-              <div class="list__icon"><i class="far fa-envelope"></i></div>
-              <a class="footer__nav-link" href="#">CONTACTO</a>
-            </li>
-            <li class="nav__list-element">
-              <div class="list__icon"><i class="fas fa-info"></i></div>
-              <a class="footer__nav-link" href="#">SOBRE NOSOTROS</a>
-            </li>
-            <li class="nav__list-element">
-              <div class="list__icon"><i class="fas fa-shopping-cart"></i></div>
-              <a class="footer__nav-link" href="#">CONDICIONES DE VENTA</a>
-            </li>
-          </ul>
-        </nav>
         <div class="footer__bottom">
           <p class="footer__bottom-text">
             Copiright &copy;2021 Maria Lunarillos
