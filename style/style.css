@@ -577,6 +577,62 @@ a:hover {
   width: 120px;
 }
 
+/* SUBMENU */
+
+.sub-menu-desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  border: 1px solid black;
+  height: 220px;
+}
+
+.sub-menu-desktop__logo {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 700px;
+  height: 100px;
+}
+.sub-menu-desktop__menu {
+  border: 1px solid black;
+  width: 700px;
+  height: 200px;
+}
+.logo__image {
+  display: flex;
+  width: 700px;
+  height: 100px;
+}
+
+.menu-upper {
+  display: flex;
+  border: 1px solid black;
+
+  width: 580px;
+  height: 100px;
+}
+
+.first-button {
+  background-color: #9faa4d;
+  width: 100px;
+  height: 20px;
+}
+.second-button {
+  background-color: #8e789d;
+  width: 100px;
+  height: 20px;
+}
+.menu-down {
+  border: 1px solid black;
+
+  width: 580px;
+  height: 100px;
+}
 @media (min-width: 600px) {
   .background--grey {
     display: flex;
