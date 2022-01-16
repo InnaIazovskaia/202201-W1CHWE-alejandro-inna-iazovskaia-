@@ -270,7 +270,8 @@ html a {
   justify-content: center;
   align-items: center;
 }
-.main-area__heading {
+.main-area__heading,
+.marcas-area__heading {
   flex-direction: column;
   align-content: center;
   margin-top: 150px;
@@ -577,9 +578,24 @@ a:hover {
   width: 120px;
 }
 
+.marcas-container {
+  display: none;
+}
+.marcas-area {
+  flex-direction: column;
+}
+.marcas-area,
+.marcas-area__heading,
+.main-area__button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 600px) {
   .background--grey {
     display: flex;
+    flex-direction: column;
   }
   .header {
     display: none;
@@ -609,5 +625,9 @@ a:hover {
   }
   .footer__services-information {
     height: 200px;
+  }
+  .marcas-container {
+    display: flex;
+    flex-direction: column;
   }
 }
