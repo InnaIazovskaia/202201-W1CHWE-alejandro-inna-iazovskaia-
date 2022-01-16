@@ -423,8 +423,9 @@ html a {
 .logos__container {
   display: flex;
   /* flex-direction: row; */
-  width: 330px;
+  width: 250px;
   height: 100px;
+  justify-content: space-between;
   align-items: initial;
 }
 .logo-background {
@@ -506,7 +507,6 @@ a:hover {
 }
 
 .header-desktop {
-  border: 1px solid black;
   align-items: center;
 
   min-width: 700px;
