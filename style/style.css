@@ -582,7 +582,6 @@ a:hover {
   width: 120px;
 }
 
-
 /* SUBMENU */
 
 .sub-menu-desktop {
@@ -708,7 +707,20 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
+.marcas-area__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.greyscale {
+  filter: grayscale(1);
+}
+.greyscale:hover {
+  filter: grayscale(0);
+}
 
 @media (min-width: 600px) {
   .background--grey {
@@ -757,7 +769,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+  }
   .marcas-container {
     display: flex;
     flex-direction: column;
