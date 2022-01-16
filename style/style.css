@@ -306,7 +306,6 @@ html a {
   padding: 50px 60px;
   justify-content: center;
   flex-direction: column;
-  margin: 40px 0 0 0;
 }
 .form__link {
   text-decoration: underline;
@@ -375,6 +374,11 @@ html a {
 .list__icon .fa-envelope {
   font-size: 17px;
   color: #fff;
+}
+
+.footer__down-area {
+  display: flex;
+  flex-direction: column;
 }
 
 /* DESKTOP */
@@ -578,6 +582,119 @@ a:hover {
   width: 120px;
 }
 
+
+/* SUBMENU */
+
+.sub-menu-desktop {
+  display: none;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+
+  height: 220px;
+}
+
+.sub-menu-desktop__logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 500px;
+  height: 100px;
+}
+.sub-menu-desktop__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  width: 617px;
+  height: 200px;
+}
+.logo__image {
+  display: flex;
+  width: 700px;
+  height: 100px;
+}
+
+.menu-upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 580px;
+  height: 100px;
+}
+
+.first-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+  background-color: #9faa4d;
+  width: 100px;
+  height: 20px;
+}
+.second-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+
+  background-color: #8e789d;
+  width: 100px;
+  height: 20px;
+}
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 370px;
+  height: 20px;
+}
+.searchbar__imput {
+  border: 0.5px solid grey;
+  width: 390px;
+  height: 20px;
+}
+.searchbar__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+}
+.menu-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 580px;
+  height: 100px;
+}
+
+.menu-down__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+
+  width: 100px;
+  height: 140px;
+  font-size: 13px;
+}
+.menu-down__button--red {
+  background-color: #ff5959;
+}
+.menu-down__spacer {
+  width: 50px;
+  height: 120px;
+}
+
 .marcas-container {
   display: none;
 }
@@ -591,6 +708,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 
 @media (min-width: 600px) {
   .background--grey {
@@ -626,6 +744,20 @@ a:hover {
   .footer__services-information {
     height: 200px;
   }
+  .sub-menu-desktop {
+    display: flex;
+  }
+  .footer__down-area {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav__aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
   .marcas-container {
     display: flex;
     flex-direction: column;
