@@ -33,12 +33,24 @@ html a {
   padding: 15px;
   margin: 0;
 }
+
+.main-area__button-wrap {
+  justify-content: center;
+}
+
 .main-area__button {
+  margin: 30px 0 50px 0;
+  width: 150px;
+  text-align: center;
+}
+
+.main-area__button,
+.form__button {
   background: #ff5959;
   color: #ffffff;
   padding: 15px 25px;
   font-weight: bold;
-  margin: 10px;
+  border: none;
 }
 .main-area__button:hover {
   text-decoration: none;
@@ -200,6 +212,7 @@ html a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #ff5959;
 }
 
 .heading__image {
@@ -225,4 +238,79 @@ html a {
   margin-top: 56px;
   margin-bottom: 90px;
   text-align: center;
+}
+
+/* FORM */
+
+.form {
+  padding: 50px 60px;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 0 0 0;
+}
+.form__link {
+  text-decoration: underline;
+}
+.form__link:hover {
+  color: #000000;
+}
+.form__button {
+  width: 100%;
+}
+.form-tittle {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.accept {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 0;
+}
+.footer__bottom {
+  background-color: #ff5959;
+  color: white;
+  text-align: center;
+}
+
+.footer__bottom-text {
+  margin: 15px 0;
+}
+
+/* FOOTER NAV */
+
+.nav__list {
+  justify-content: center;
+}
+.footer__nav-link {
+  color: #ff5959;
+}
+.footer__nav-link:hover {
+  color: #ff5959;
+  text-decoration: underline;
+}
+.nav__list-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.footer__nav {
+  padding: 0;
+  margin: 30px 0 60px 0;
+}
+.list__icon {
+  background-color: #ff5959;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

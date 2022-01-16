@@ -81,7 +81,7 @@
             <h2 class="cards__heading">ACCESORIOS PARA FIESTAS</h2>
           </section>
         </section>
-        <section>
+        <section class="main-area__button-wrap row">
           <a class="main-area__button" href="">VER MÁS</a>
         </section>
       </main>
@@ -156,35 +156,41 @@
           </div>
         </section>
 
-        <form class="form">
+        <form class="form row">
           <label class="form-tittle" for="newslater"
             >RECIBE LAS NOVEDADES EN TU E-MAIL</label
           >
           <input class="form__input-box" type="email" id="newslater" />
-          <label for="acepto"
-            ><input class="form__check-box" type="checkbox" id="acepto" />
-            <p>Acepto la <a href="">política de privacidad</a></p>
-          </label>
-          <button type="submit">SUSCRÍBETE></button>
+          <div class="accept">
+            <input class="form__check-box" type="checkbox" id="acepto" />
+            <label for="acepto">
+              Acepto la
+              <a class="form__link" href="#">política de privacidad</a>
+            </label>
+          </div>
+          <button class="form__button" type="submit">SUSCRÍBETE></button>
         </form>
+
         <nav class="footer__nav row">
           <ul class="nav__list">
-            <li>
+            <li class="nav__list-element">
               <div class="list__icon"><i class="far fa-envelope"></i></div>
-              <a href="#">CONTACTO</a>
+              <a class="footer__nav-link" href="#">CONTACTO</a>
             </li>
-            <li>
+            <li class="nav__list-element">
               <div class="list__icon"><i class="fas fa-info"></i></div>
-              <a href="#">SOBRE NOSOTROS</a>
+              <a class="footer__nav-link" href="#">SOBRE NOSOTROS</a>
             </li>
-            <li>
+            <li class="nav__list-element">
               <div class="list__icon"><i class="fas fa-shopping-cart"></i></div>
-              <a href="#">CONDICIONES DE VENTA</a>
+              <a class="footer__nav-link" href="#">CONDICIONES DE VENTA</a>
             </li>
           </ul>
         </nav>
         <div class="footer__bottom">
-          <p>Copiright &copy;2021 Maria Lunarillos</p>
+          <p class="footer__bottom-text">
+            Copiright &copy;2021 Maria Lunarillos
+          </p>
         </div>
       </footer>
     </div>
