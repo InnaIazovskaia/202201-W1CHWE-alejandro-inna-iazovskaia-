@@ -164,11 +164,23 @@ html a {
 
 /* FOOTER */
 
+.fa-truck,
+.fa-envelope,
+.fa-clock,
+.fa-credit-card {
+  color: #64605c;
+  font-size: 100px;
+}
+
+.services-information__container {
+  color: #64605c;
+}
+
 .footer__services-information {
   display: flex;
   height: 500px;
   flex-direction: row;
-  background-color: #7d7d7d;
+  background-color: #e8e6e5;
   align-items: center;
   justify-content: center;
 }
@@ -350,7 +362,7 @@ html a {
 }
 .list__icon {
   background-color: #ff5959;
-  color: #ffffff;
+  color: #fff;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -358,6 +370,10 @@ html a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.list__icon .fa-envelope {
+  font-size: 17px;
+  color: #fff;
 }
 
 /* DESKTOP */
@@ -590,5 +606,8 @@ a:hover {
   }
   .card-tittle__size {
     width: 170px;
+  }
+  .footer__services-information {
+    height: 200px;
   }
 }
