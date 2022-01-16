@@ -464,6 +464,14 @@ html a {
   background-color: #fff;
 }
 
+.logo-background--white:hover {
+  color: #fff;
+  background-color: #ff5959;
+}
+.cart-link:hover {
+  color: #fff;
+}
+
 .navigation__social-media {
   display: flex;
   flex-direction: row;
