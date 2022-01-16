@@ -506,7 +506,16 @@ a:hover {
 }
 
 .header-desktop {
+  border: 1px solid black;
+  align-items: center;
+
   min-width: 700px;
+  justify-content: center;
+}
+
+.prueba {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -599,8 +608,9 @@ a:hover {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-end;
-  width: 500px;
+  width: 550px;
   height: 100px;
+  margin-left: 20px;
 }
 .sub-menu-desktop__menu {
   display: flex;
@@ -608,7 +618,7 @@ a:hover {
   justify-content: flex-end;
   align-items: flex-end;
 
-  width: 617px;
+  width: 700px;
   height: 200px;
 }
 .logo__image {
