@@ -243,9 +243,18 @@ html a {
 /* FORM */
 
 .form {
+  display: flex;
   padding: 50px 60px;
-  border-top: 1px solid #808080;
-  border-bottom: 1px solid #808080;
+
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form__container {
+  border-top: 1px solid #bbb8b6;
+  border-bottom: 1px solid #bbb8b6;
+  display: flex;
+  padding: 50px 60px;
   justify-content: center;
   flex-direction: column;
   margin: 40px 0 0 0;
