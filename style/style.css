@@ -171,10 +171,6 @@ html a {
   font-size: 100px;
 }
 
-.services-information__container {
-  color: #64605c;
-}
-
 .footer__services-information {
   display: flex;
   height: 500px;
@@ -185,6 +181,7 @@ html a {
 }
 
 .services-information__container {
+  color: #64605c;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -382,15 +379,7 @@ html a {
 
 /* DESKTOP */
 
-.header__logos {
-  height: 50px;
-}
-
 .header__navigation {
-  height: 50px;
-}
-
-.navigation__social-media {
   height: 50px;
 }
 
@@ -414,6 +403,7 @@ html a {
 }
 
 .header__logos {
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -472,6 +462,8 @@ html a {
 }
 
 .navigation__social-media {
+  height: 50px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
