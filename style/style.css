@@ -7,9 +7,11 @@ html a {
 }
 .card-fiestas-tematicas {
   background: url(/images/fiestastematicas.jpg) center center no-repeat;
+  background-size: cover;
 }
 .card-fiestas-personajes {
   background: url(/images/fiestaspersonajes.jpg) center center no-repeat;
+  background-size: cover;
 }
 .card-accesorios {
   background: url(/images/pompones.jpg) no-repeat;
@@ -746,7 +748,7 @@ a:hover {
   .main-area__cards {
     flex-direction: row;
     justify-content: space-between;
-    width: 820px;
+    width: 100%;
   }
   .cards--accesorios {
     width: 300px;
@@ -785,5 +787,15 @@ a:hover {
   }
   .logos-container {
     display: none;
+  }
+  .first-two-cards {
+    width: 66%;
+  }
+  .cards--accesorios {
+    width: 33%;
+  }
+  .card-fiestas-tematicas,
+  .card-fiestas-personajes {
+    width: 100%;
   }
 }
