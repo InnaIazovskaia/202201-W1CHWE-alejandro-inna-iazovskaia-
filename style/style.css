@@ -754,7 +754,7 @@ a:hover {
   .main-area__cards {
     flex-direction: row;
     justify-content: space-between;
-    width: 820px;
+    width: 100%;
   }
   .cards--accesorios {
     width: 300px;
