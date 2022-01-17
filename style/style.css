@@ -791,4 +791,7 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+  .logos-container {
+    display: none;
+  }
 }
