@@ -139,14 +139,13 @@ html a {
 }
 
 .logos-container {
-  width: 100%;
+  width: 100vw;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .logo-background--mini {
