@@ -55,7 +55,7 @@ html a {
 .header {
   display: flex;
   height: 50px;
-  width: 100%;
+  width: 100vw;
   background-color: #f8f8f8;
 
   align-items: center;
