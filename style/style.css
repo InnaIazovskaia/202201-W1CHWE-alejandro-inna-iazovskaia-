@@ -470,7 +470,6 @@ html a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
 }
 
 a:hover {
@@ -751,7 +750,7 @@ a:hover {
     width: 100%;
   }
   .cards--accesorios {
-    width: 300px;
+    width: 33%;
     height: 420px;
   }
   .cards--fiestas-tematicas {
@@ -791,9 +790,7 @@ a:hover {
   .first-two-cards {
     width: 66%;
   }
-  .cards--accesorios {
-    width: 33%;
-  }
+
   .card-fiestas-tematicas,
   .card-fiestas-personajes {
     width: 100%;

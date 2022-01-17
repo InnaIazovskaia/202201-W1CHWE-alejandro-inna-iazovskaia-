@@ -1,6 +1,6 @@
-projectKey=lunarillos
+projectKey=lunarillos2
 serverUrl=http://localhost:9000
 serverVersion=9.2.4.50792
-dashboardUrl=http://localhost:9000/dashboard?id=lunarillos
-ceTaskId=AX5pOCLGR9DjIEJ_IZdw
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5pOCLGR9DjIEJ_IZdw
+dashboardUrl=http://localhost:9000/dashboard?id=lunarillos2
+ceTaskId=AX5pfgb6R9DjIEJ_IZeB
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5pfgb6R9DjIEJ_IZeB
